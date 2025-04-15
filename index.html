@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlux Travels</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover, .login-btn {
+            background-color: #ff6f61;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            background-image: url('./images/USA.jpg'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .explore-btn {
+            background-color: #ff6f61;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .explore-btn:hover {
+            background-color: #d85a4f;
+        }
+
+        
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 280px;
+            transition: transform 0.3s;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 40px;
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Wanderlux Travels</div>
+            <ul class="nav-links">
+                <li><a href="login.html" class="login-btn">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the World with Wanderlux</h1>
+            <p>Your journey begins here. Discover breathtaking destinations and create unforgettable memories.</p>
+        </div>
+    </section>
+
+    <section class="container" id="features">
+        <h2>Why Choose Wanderlux Travels?</h2>
+        <p>We provide exceptional travel experiences, curated adventures, and seamless booking to make your journeys unforgettable.</p>
+        <div class="features">
+            <div class="feature-box">
+                <div class="icon">🌍</div>
+                <h3>Global Destinations</h3>
+                <p>Explore the most breathtaking places around the world with our well-planned itineraries.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">🏨</div>
+                <h3>Luxury Stays</h3>
+                <p>Stay in handpicked luxurious hotels, resorts, and unique accommodations that match your style.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">✈️</div>
+                <h3>Seamless Travel</h3>
+                <p>From flights to transfers, we take care of all your travel needs for a hassle-free trip.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">🌟</div>
+                <h3>Personalized Experiences</h3>
+                <p>Tailor-made itineraries designed to fit your travel preferences and interests.</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">💼</div>
+                <h3>24/7 Customer Support</h3>
+                <p>Enjoy peace of mind with round-the-clock assistance from our expert travel agents.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

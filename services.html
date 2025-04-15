@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Wanderlux Travels</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100vh;
+    }
+
+  
+    nav {
+      background-color: #333;
+      padding: 10px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+
+    nav ul li a:hover {
+      background-color: #0073e6;
+      border-radius: 5px;
+    }
+
+    
+    .services-hero {
+      height: 100vh;
+      background-image: url('./images/serve.webp'); 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+    }
+
+    .services-hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .services-hero p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      max-width: 700px;
+    }
+
+   
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin: 40px auto;
+      padding: 0 50px 40px;
+      max-width: 1200px;
+    }
+
+    .service-card {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+      text-align: left;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h2 {
+      font-size: 22px;
+      color: #e74c3c;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 16px;
+      color: #333;
+    }
+
+   
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav>
+    <div class="logo">Wanderlux Travels</div>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="destination.html">Destinations</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="index.html">Log out</a></li>
+    </ul>
+  </nav>
+
+  
+  <section class="services-hero">
+    <h1>Our Services</h1>
+    <p>Explore a variety of premium travel services designed to make your adventures effortless and extraordinary.</p>
+  </section>
+
+  
+  <section class="services-grid">
+    <div class="service-card">
+      <h2>Luxury Travel</h2>
+      <p>Top-tier experiences with 5-star stays, private transfers, and VIP access.</p>
+    </div>
+    <div class="service-card">
+      <h2>Adventure Tours</h2>
+      <p>Thrilling hikes, dives, and safaris for the bold traveler in you.</p>
+    </div>
+    <div class="service-card">
+      <h2>Family Vacations</h2>
+      <p>Curated family getaways with activities for every age.</p>
+    </div>
+    <div class="service-card">
+      <h2>Corporate Travel</h2>
+      <p>Streamlined business travel with professional planning and support.</p>
+    </div>
+    <div class="service-card">
+      <h2>Honeymoon Packages</h2>
+      <p>Romantic retreats in breathtaking destinations for couples.</p>
+    </div>
+    <div class="service-card">
+      <h2>Cruise Packages</h2>
+      <p>All-inclusive cruises with stops at the world’s most stunning ports.</p>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Wanderlux Travels. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

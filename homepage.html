@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlux Travels</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+
+        
+        nav {
+            background-color: #333;
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            gap: 25px;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #0073e6;
+            border-radius: 5px;
+        }
+
+      
+        .hero {
+            height: 100vh;
+            background-image: url('./images/wanderlux2.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .hero .content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero .explore-btn {
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero .explore-btn:hover {
+            background-color: #c0392b;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Wanderlux Travels</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html">Log out</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="content">
+            <h1>Explore the World with Wanderlux</h1>
+            <p>Your journey begins here. Discover breathtaking destinations and create unforgettable memories.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Wanderlux Travels. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

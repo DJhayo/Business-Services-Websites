@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Thailand - Wanderlux Travels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            color: #f8b400;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            width: 100%;
+            max-width: 300px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 20px;
+            color: #333;
+        }
+        .btn-container {
+            margin-top: 30px;
+        }
+        .btn {
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-secondary {
+            background-color: #ddd;
+            color: #333;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .contact-section {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .contact-section p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .contact-section a {
+            color: #f8b400;
+            text-decoration: none;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <nav>
+        <div class="logo">Wanderlux Travels</div>
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html">Log out</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Explore Thailand</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="./images/grandpalace.jpg" alt="Grand Palace">
+                <h3>Grand Palace, Bangkok</h3>
+            </div>
+            <div class="card">
+                <img src="./images/phi phi.jpg" alt="Phi Phi Islands">
+                <h3>Phi Phi Islands</h3>
+            </div>
+            <div class="card">
+                <img src="./images/chaing.jpg" alt="Chiang Mai Temples">
+                <h3>Chiang Mai Temples</h3>
+            </div>
+            <div class="card">
+                <img src="./images/floating.jpg" alt="Floating Market">
+                <h3>Damnoen Saduak Floating Market</h3>
+            </div>
+            <div class="card">
+                <img src="./images/ayutthaya.jpg" alt="Ayutthaya">
+                <h3>Ayutthaya Historical Park</h3>
+            </div>
+            <div class="card">
+                <img src="./images/phuket.jpg" alt="Phuket Beaches">
+                <h3>Phuket Beaches</h3>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <a href="#" class="btn btn-primary">Explore More</a>
+            <a href="destination.html" class="btn btn-secondary">← Back to Destinations</a>
+        </div>
+    </div>
+
+  
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@wanderluxtravels.com">Wanderluxtravels@gmail.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+63-9050338197</a></p>
+        <p>Address: Zone 2 Lumbia Cagayan de oro City Misamis Oriental</p>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2025 Wanderlux Travels. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

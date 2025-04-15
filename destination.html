@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wanderlux Travels - Destinations</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+    }
+
+    
+    nav {
+      background-color: #333;
+      padding: 10px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+
+    nav ul li a:hover {
+      background-color: #0073e6;
+      border-radius: 5px;
+    }
+
+   
+    .header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background-image: url('./images/header35.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+    }
+
+   
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 50px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card .info {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+   
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Wanderlux Travels</div>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="destination.html">Destinations</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="index.html">Log out</a></li>
+    </ul>
+  </nav>
+
+  <section class="header">
+    <h1>Top Destinations</h1>
+    <p>Where will your journey take you?</p>
+  </section>
+
+  <section class="grid">
+    <a href="maldives.html" class="card">
+      <img src="./images/maldives flag.jpg" alt="Maldives">
+      <div class="info">Maldives</div>
+    </a>
+    <a href="paris.html" class="card">
+      <img src="./images/france flag.jpg" alt="Paris">
+      <div class="info">France</div>
+    </a>
+    <a href="dubai.html" class="card">
+      <img src="./images/dubai flag.jpg" alt="Dubai">
+      <div class="info">Dubai</div>
+    </a>
+    <a href="bali.html" class="card">
+      <img src="./images/indo flag.jpg" alt="Bali">
+      <div class="info">Indonesia</div>
+    </a>
+    <a href="japan.html" class="card">
+      <img src="./images/japan falg.jpg" alt="Japan">
+      <div class="info">Japan</div>
+    </a>
+    <a href="italy.html" class="card">
+      <img src="./images/italy flag.jpg" alt="Italy">
+      <div class="info">Italy</div>
+    </a>
+    <a href="usa.html" class="card">
+      <img src="./images/us flag.jpg" alt="USA">
+      <div class="info">USA</div>
+    </a>
+    <a href="uk.html" class="card">
+      <img src="./images/uk flag.jpg" alt="UK">
+      <div class="info">UK</div>
+    </a>
+    <a href="thailand.html" class="card">
+      <img src="./images/thailand flag.jpg" alt="Thailand">
+      <div class="info">Thailand</div>
+    </a>
+    <a href="spain.html" class="card">
+      <img src="./images/spain flag.jpg" alt="Spain">
+      <div class="info">Spain</div>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 Wanderlux Travels. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
